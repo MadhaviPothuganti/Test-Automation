@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.217 sec <<< FAILURE!
+verifyContactsLableTest(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.crm.qa.pages.ContactsPage.verifycontactsLable(ContactsPage.java:18)
+	at com.crm.qa.testcases.ContactsPageTest.verifyContactsLableTest(ContactsPageTest.java:44)
+
